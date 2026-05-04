@@ -290,3 +290,21 @@
     text-align: right;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 576px) {
+    .popular-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cart-box {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 776px) {
+    .popular-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
