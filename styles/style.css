@@ -365,3 +365,40 @@
         text-align: center;
     }
 }
+
+/* footer styles 
+------------------ */
+.footer {
+    margin-top: 100px;
+    background-color: rgb(10, 8, 38);
+}
+
+.footer-content {
+    max-width: 262px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer-address {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.media-icon {
+    color: var(--white-color);
+    margin-right: 40px;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
