@@ -176,3 +176,36 @@
         width: 100%;
     }
 }
+
+/* sponsor section 
+=================== */
+
+.sponsor-part {
+    max-width: 1110px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.sponsor-img {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 80px;
+    padding-top: 40px;
+}
+
+/* media query small device */
+@media screen and (max-width: 576px) {
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        align-items: center;
+    }
+
+    .sponsor-part {
+        border: none;
+    }
+}
