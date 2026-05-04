@@ -209,3 +209,84 @@
         border: none;
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 776px) {
+    .sponsor-img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .sponsor-part {
+        border: none;
+    }
+}
+
+/* popular collection 
+===================== */
+.popular-collection {
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.popular-title {
+    color: var(--common-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.popular-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cart-box {
+    max-width: 339px;
+    box-shadow: 0px 1px 5px -1px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cart-title {
+    margin-top: 5px;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cart-price {
+    margin-top: -20px;
+    font-size: 1.7rem;
+    color: var(--common-color);
+}
+
+.star-list {
+    display: flex;
+    gap: 4px;
+    margin-top: -30px;
+}
+
+.star-item {
+    color: rgb(251, 130, 0);
+}
+
+.ratings {
+    color: var(--common-color);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.star-description {
+    margin-top: 0px;
+    color: var(--common-color);
+    font-size: 1.1rem;
+}
+
+.see-more {
+    color: var(--btn-bg-color);
+    font-weight: 700;
+    text-align: right;
+    margin-top: 30px;
+}
